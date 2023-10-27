@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API</title>
+
+   <style>
+    *{
+        text-align: center;
+    }
+
+     #cointainer {
+        background-color: antiquewhite;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+    .item{
+        background-color: aquamarine;
+        border-radius: 15px;
+    }
+   </style>
+
+</head>
+<body>
+
+    <button onclick="loadAllData()">Users List</button>
+
+        <div id="cointainer">
+
+        </div>
+
+
+    <script src="/api.js"></script>
+</body>
+</html>
